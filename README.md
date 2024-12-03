@@ -6,7 +6,8 @@ This project is meant tot be ran in chronological order, starting from the file 
 
 However, before obtaining our weather data, we would need to download some modules that can allow us to retrieve the weather data:
 
-pip install openmeteo-requests pip install requests-cache retry-requests numpy pandas
+`pip install openmeteo-requests`
+`pip install requests-cache retry-requests numpy pandas`
 
 Making sure that these 2 modules are installed into our environment will allow us to use the api to read in the hourly data for 2023 in New York City. The data of New York City from Open Meteo is based on the longitude and latitude, and timing of the day. The data that were retrieved, were the depth of the snow, wind speed, the rain and the temperature of the hour based on day, month of the year.
 
